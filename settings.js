@@ -1,7 +1,7 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
-// @project_name : Jinwoo
-// @author : Malvin
+// @project_name : Chxse
+// @author : Chxse
 // @youtube : https://www.youtube.com/@malvintech2
 // @instagram : techlord01
 // @telegram : t.me/malvinking2
@@ -17,34 +17,34 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'jinwoo:~07E2FC6J#NYdQc04z8Gzvo1KBbW8JRB3QyHvcZZMUN3HT6PrfL5Y' 
 //Enter your Jinwoo session id here; must start with jinwoo:~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'ᴊɪɴᴡᴏᴏ-ʙᴏᴛ' 
+global.botname = process.env.BOT_NAME || 'CHXSE-ʙᴏᴛ' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '263780166288' 
+global.ownernumber = process.env.OWNER_NUMBER || '2349099351445' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263714757857', '263780934873'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263714757857', '2349099351445'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'ᴍᴀʟᴠɪɴ ᴋɪɴɢ' 
+global.ownername = process.env.OWNER_NAME || 'CHXSE' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "jinwoo" 
+global.packname = process.env.STICKER_PACK_NAME || "CHXSE" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "sung" 
+global.author = process.env.STICKER_AUTHOR_NAME || "Chxse" 
 
 //-------------------[ BOT'S PREFIX ]--------------------//
 
@@ -85,7 +85,7 @@ global.chatbot = process.env.CHATBOT || 'false'
 
 //-------------------[ ANTI DELETE ]--------------------//
 
-global.antidelete = process.env.ANTIDELETE || 'private'
+global.antidelete = process.env.ANTIDELETE || 'chat'
 // options:- 'private', 'chat' or 'off'
 // private = Sends to message yourself 
 // chat = sends to the current chat 
@@ -114,7 +114,7 @@ global.welcome = process.env.WELCOME_MSG || 'false'
 
 //----------------------[ TIMEZONE ]--------------------//
 
-global.timezones = process.env.TIMEZONE || "Africa/Nairobi" 
+global.timezones = process.env.TIMEZONE || "Africa/Abuja" 
 //Don't edit this if you don't know!
 
 //--------------------[ AUTO READ ]--------------------//
@@ -124,7 +124,7 @@ global.autoread = process.env.AUTO_READ || 'false';
 
 //-------------------[ MENU STYLE ]--------------------//
 
-global.menustyle = process.env.MENU_STYLE || '3' 
+global.menustyle = process.env.MENU_STYLE || '4' 
 // options 1, 2, 3, 4, 5 or 6
 // 1 = Document menu(Android only)
 // 2 = Text only menu(Android & iOS)
@@ -140,17 +140,17 @@ global.dbToken = process.env.GITHUB_TOKEN || "";
 
 //-----------------[ CONTEXT LINK ]--------------------//
 
-global.plink = process.env.PLINK || "https://www.instagram.com/@techlord01"
+global.plink = process.env.PLINK || "https://www.instagram.com/@thechx53"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©Jinwoo bot"
+global.wm = process.env.GL_WM || "> ©Chxse bot"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
   done: '*Done*', 
-  success: '> © ᴊɪɴᴡᴏᴏ ᴠ2.5', 
+  success: '> © CHXSEᴏ ᴠ2.5', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
@@ -167,4 +167,4 @@ fs.watchFile(file, () => {
   require(file)
 })
 
-//----------------------[ Jinwoo-bot ]----------------------//
+//----------------------[ Chxse-bot ]----------------------//
