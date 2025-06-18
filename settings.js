@@ -17,7 +17,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'jinwoo:~07E2FC6J#NYdQc04z8Gzvo1KBbW8JRB3QyHvcZZMUN3HT6PrfL5Y' 
+global.SESSION_ID = process.env.SESSION_ID || 'jinwoo:~wy82xIpB#QP81SV-0V3NWY6WU8AF8K6ICeGVNlWxs3yJ4Rw6y0e0' 
 //Enter your Jinwoo session id here; must start with jinwoo:~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -26,11 +26,11 @@ global.botname = process.env.BOT_NAME || 'CHXSE-ʙᴏᴛ'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '2349099351445' 
+global.ownernumber = process.env.OWNER_NUMBER || '2349065837528' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263714757857', '2349099351445'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['263714757857', '2349065837528'];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
@@ -85,7 +85,7 @@ global.chatbot = process.env.CHATBOT || 'false'
 
 //-------------------[ ANTI DELETE ]--------------------//
 
-global.antidelete = process.env.ANTIDELETE || 'chat'
+global.antidelete = process.env.ANTIDELETE || 'off'
 // options:- 'private', 'chat' or 'off'
 // private = Sends to message yourself 
 // chat = sends to the current chat 
@@ -93,7 +93,7 @@ global.antidelete = process.env.ANTIDELETE || 'chat'
 
 //---------------------[ ANTI EDIT ]----------------------//
 
-global.antiedit = process.env.ANTI_EDIT || 'private'
+global.antiedit = process.env.ANTI_EDIT || 'off'
 // options:- 'private', 'chat' or 'off'
 // private = Sends to message yourself 
 // chat = sends to the current chat 
@@ -114,7 +114,7 @@ global.welcome = process.env.WELCOME_MSG || 'false'
 
 //----------------------[ TIMEZONE ]--------------------//
 
-global.timezones = process.env.TIMEZONE || "Africa/Abuja" 
+global.timezones = process.env.TIMEZONE || "Africa/Lagos" 
 //Don't edit this if you don't know!
 
 //--------------------[ AUTO READ ]--------------------//
