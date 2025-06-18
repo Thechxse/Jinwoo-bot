@@ -17,7 +17,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'jinwoo:~wy82xIpB#QP81SV-0V3NWY6WU8AF8K6ICeGVNlWxs3yJ4Rw6y0e0' 
+global.SESSION_ID = process.env.SESSION_ID || 'jinwoo:~d7MkECAY#FuQUL_szwp7XAUeP7R62v7xu6kzQH9UfbikmzliEs1c' 
 //Enter your Jinwoo session id here; must start with jinwoo:~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -26,7 +26,7 @@ global.botname = process.env.BOT_NAME || 'CHXSE-ʙᴏᴛ'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '2349065837528' 
+global.ownernumber = process.env.OWNER_NUMBER || '2349019218185' 
 
 //--------------------[ SUDO ]--------------------------//
 
